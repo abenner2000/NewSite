@@ -1,0 +1,70 @@
+.workbox{
+    background-color: rgb(239, 239, 239);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 45rem;
+    border-radius: 5px;
+    box-shadow: 0.3rem 0.3rem 0.7rem black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.workbox__titleBox{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.workbox__title{
+    font-weight: 600;
+    color: rgb(49, 49, 156);
+}
+
+.workbox__contentBox{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    align-items: center;
+}
+
+.workbox__clickBox{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workbox__picBox{
+    width: 100%;
+    text-align: center;
+}
+
+.workbox__pic{
+    width: 80%;
+    border: 0.2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.workbox__description{
+    padding: 0.5rem;
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgb(49, 49, 156);
+    text-align: left;
+}
+
+.workbox__click{
+    font-size: 1.4rem;
+    background-color: white;
+    border-color: black;
+    color: rgb(49, 49, 156);
+}
+
+.workbox__click:hover{
+    background-color: lightgrey;
+}

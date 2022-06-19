@@ -1,0 +1,11 @@
+.education{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education__title{
+    color: rgb(35, 35, 134);
+}

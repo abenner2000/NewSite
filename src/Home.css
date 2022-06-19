@@ -1,0 +1,74 @@
+.home{
+    margin-top: 2rem;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.home__picBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home__picBoxSpecific{
+    margin-top: 2rem;
+    margin-left:2rem;
+}
+
+.home__pic{
+    border-radius: 50%;
+    width: 17rem;
+    box-shadow: 1rem 1rem 4rem black;
+}
+
+.home__contact{
+    margin-top: 2rem;
+    justify-content: left;
+    text-align: left;
+    vertical-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__logoBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.home__logoBoxPic{
+    border-radius: 50%;
+    width: 4rem;
+    margin-left: 1.5rem;
+    margin-right: .5rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem black;
+}
+
+.home__logoBoxPic:hover{
+    opacity: 0.6;
+}
+
+.home__title{
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(43, 43, 147);;
+}
+
+.home__textBox{
+    width: 100%;
+}
+
+.home__text{
+    font-size: 1.2rem;
+    color: rgb(49, 49, 156);
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+

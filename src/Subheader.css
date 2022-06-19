@@ -1,0 +1,27 @@
+.subheader{
+  display: flex;
+  height: 2rem;
+  width: 100%;
+  background-color: rgb(105, 105, 205);
+  opacity: 0.7;
+  z-index: 99;
+  position: fixed;
+  margin-top: 4rem;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0rem 0.7rem 0.9rem black;
+}
+
+.subheader__container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.subheader__text{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
