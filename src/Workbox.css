@@ -2,7 +2,9 @@
     background-color: rgb(239, 239, 239);
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 45rem;
+    width: 80%;
+    min-width: 24rem;
+    max-width: 50rem;
     border-radius: 5px;
     box-shadow: 0.3rem 0.3rem 0.7rem black;
     display: flex;
@@ -18,14 +20,17 @@
 }
 
 .workbox__title{
+    font-size:1.2rem;
     font-weight: 600;
     color: rgb(49, 49, 156);
 }
 
 .workbox__contentBox{
+    align-content: flex-start;
     margin-top: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
     vertical-align: center;
     align-items: center;
 }
@@ -40,6 +45,8 @@
 .workbox__picBox{
     width: 100%;
     text-align: center;
+    min-width: 15rem;
+    max-width: 20rem;
 }
 
 .workbox__pic{
@@ -53,9 +60,11 @@
     padding: 0.5rem;
     display: flex;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(49, 49, 156);
     text-align: left;
+    min-width: 10rem;
+    max-width: 20rem;
 }
 
 .workbox__click{

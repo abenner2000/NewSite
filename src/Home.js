@@ -1,5 +1,4 @@
 import './Home.css'
-import circuit from './Media/circuit.jpeg'
 import Linkedin from './Media/linkedin.jpeg'
 import Github from './Media/github.png'
 import Headshot from './Media/headshot.jpg'
@@ -13,8 +12,8 @@ const Home = () => {
                 </div>
                 <div className="home__contact">
                     <p className="home__title">
-                        Electrical & Computer Engineering Grad
-                        Student @ Binghamton University | Machine Learning 
+                        Electrical and Computer Engineering Grad
+                        Student at Binghamton University | Machine Learning 
                         Research Assistant
                     </p>
                     <p className="home__title">

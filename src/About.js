@@ -4,14 +4,19 @@ const About = () => {
     return(
         <div className="about">
             <p className="about__text">
-                Hello, thank you for taking the time to visit my website.
-                My name is Andrew Benner and I am an Electrical and 
-                Computer Engineering Graduate student at Binghamton
-                University. I received a full scholarship to pursue my 
-                Master's Degree as a Machine Learning Research Assistant
-                to Dr. Jian Li. On my website please find my work experience
-                history, personal side projects, school projects, facts
-                about me and more.
+                I live in Queens, New York, but was born and raised in 
+                Manhattan, New York. I'm a really big fan of anything that
+                allows me to express my creativity. I enjoy drawing, playing
+                guitar, writing songs, writing poems, and much more. Ever 
+                since I was a kid, I've wanted to explore the world and bring
+                my guitar so I can play guitar in the most beautiful locations
+                that the world has to offer. 
+            </p>
+            <p className="about__text">
+                I am also very family oriented and love to spend time with
+                my family and friends. A perfect weekend for me is going bowling,
+                rock climbing, swimming, shooting pool, or some other activity
+                with people that I care about.
             </p>
         </div>
     );

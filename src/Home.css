@@ -1,5 +1,5 @@
 .home{
-    margin-top: 2rem;
+    margin-top: 6rem;
     height: 90vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -8,30 +8,36 @@
 }
 
 .home__picBox{
+    margin-top:2rem;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .home__picBoxSpecific{
-    margin-top: 2rem;
-    margin-left:2rem;
+    width: 40%;
+    max-width: 20rem;
+    min-width: 10rem;
 }
 
 .home__pic{
     border-radius: 50%;
-    width: 17rem;
+    width: 100%;
     box-shadow: 1rem 1rem 4rem black;
 }
 
 .home__contact{
-    margin-top: 2rem;
+    width: 60%;
     justify-content: left;
     text-align: left;
     vertical-align: center;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    max-width: 40rem;
+    min-width: 20rem;
 }
 
 .home__logoBox{
@@ -62,13 +68,13 @@
 }
 
 .home__textBox{
+    margin-top: 1rem;
     width: 100%;
 }
 
 .home__text{
+    padding: 1rem;
     font-size: 1.2rem;
     color: rgb(49, 49, 156);
-    margin-top: 2rem;
-    margin-left: 2rem;
 }
 
